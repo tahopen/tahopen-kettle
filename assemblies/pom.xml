@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.tahopen.di</groupId>
+  <artifactId>tdi-assemblies</artifactId>
+  <version>0.1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>TDI Assemblies</name>
+
+  <parent>
+    <groupId>org.tahopen.di</groupId>
+    <artifactId>tdi</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <properties>
+    <assembly.dir>${project.build.directory}/assembly</assembly.dir>
+  </properties>
+
+  <modules>
+    <module>static</module>
+    <module>samples</module>
+    <module>lib</module>
+    <module>plugins</module>
+    <module>client</module>
+    <module>core</module>
+  </modules>
+
+  <profiles>
+
+    <profile>
+      <id>osgi</id>
+
+      <activation>
+        <property>
+          <name>osgi</name>
+        </property>
+      </activation>
+
+      <dependencyManagement>
+        <dependencies>
+          <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.core</artifactId>
+            <version>${osgi.core.version}</version>
+            <scope>compile</scope>
+          </dependency>
+        </dependencies>
+      </dependencyManagement>
+
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-clean-plugin</artifactId>
+            <executions>
+              <execution>
+                <!-- override clean and don't delete the zips in target, this helps hadoop-addon and makes the pipeline cleaner
+                     if you really need a full cleaning run clean without activating this profile -->
+                <id>default-clean</id>
+                <configuration>
+                  <excludeDefaultDirectories>true</excludeDefaultDirectories>
+                  <filesets>
+                    <fileset>
+                      <directory>${project.build.directory}</directory>
+                      <followSymlinks>false</followSymlinks>
+                      <useDefaultExcludes>true</useDefaultExcludes>
+                      <excludes>
+                        <exclude>*.zip</exclude>
+                      </excludes>
+                    </fileset>
+                  </filesets>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+      
+    </profile>
+
+  </profiles>
+
+</project>

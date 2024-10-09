@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.pentaho.di.plugins</groupId>
+    <artifactId>pdi-plugins</artifactId>
+    <version>10.1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>file-open-save-new</artifactId>
+  <version>10.1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>PDI File Open and Save New Plugin</name>
+
+  <modules>
+    <module>api</module>
+    <module>core</module>
+    <module>assemblies</module>
+  </modules>
+
+  <properties>
+    <pdi.version>10.1.0.0-SNAPSHOT</pdi.version>
+    <version.for.license>${project.version}</version.for.license>
+    
+    <swt.version>4.6</swt.version>
+    
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>pentaho-kettle</groupId>
+        <artifactId>kettle-core</artifactId>
+        <version>${pdi.version}</version>
+        <scope>provided</scope>
+      </dependency>
+      <dependency>
+        <groupId>pentaho-kettle</groupId>
+        <artifactId>kettle-ui-swt</artifactId>
+        <version>${pdi.version}</version>
+        <scope>provided</scope>
+      </dependency>
+      <dependency>
+        <groupId>pentaho-kettle</groupId>
+        <artifactId>kettle-engine</artifactId>
+        <version>${pdi.version}</version>
+        <scope>provided</scope>
+
+      </dependency>
+   
+      <dependency>
+        <groupId>org.eclipse.swt</groupId>
+        <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
+        <version>${swt.version}</version>
+        <scope>provided</scope>
+        <exclusions>
+          <exclusion>
+            <artifactId>*</artifactId>
+            <groupId>*</groupId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>org.pentaho.di.plugins</groupId>
+        <artifactId>core-ui</artifactId>
+        <version>${pdi.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <build>
+    <resources>
+      <resource>
+        <filtering>false</filtering>
+        <directory>src/main/resources</directory>
+        <includes>
+          <include>**/*</include>
+        </includes>
+        <excludes>
+          <exclude>META-INF/**/*</exclude>
+        </excludes>
+      </resource>
+      <resource>
+        <filtering>true</filtering>
+        <directory>src/main/resources</directory>
+        <includes>
+          <include>META-INF/**/*</include>
+        </includes>
+      </resource>
+    </resources>
+  </build>
+</project>

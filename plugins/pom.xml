@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.tahopen.di.plugins</groupId>
+  <artifactId>tdi-plugins</artifactId>
+  <version>0.1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>TDI Plugins</name>
+  <parent>
+    <groupId>org.tahopen.di</groupId>
+    <artifactId>tdi</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <properties>
+    <!-- Test running configuration -->
+    <maven-surefire-plugin.reuseForks>true</maven-surefire-plugin.reuseForks>
+    <maven-failsafe-plugin.reuseForks>false</maven-failsafe-plugin.reuseForks>
+  </properties>
+
+  <profiles>
+    <profile>
+      <id>lowdeps</id>
+      <activation>
+        <property>
+          <name>!skipDefault</name>
+        </property>
+      </activation>
+      <modules>
+        <module>monet-db-bulk-loader</module>
+        <module>postgresql-db-bulk-loader</module>
+        <module>oracle-bulk-loader</module>
+        <module>terafast-bulk-loader</module>
+        <module>infobright-bulk-loader</module>
+        <module>ivw-bulk-loader</module>
+        <module>edi2xml</module>
+        <module>random-cc-number-generator</module>
+        <module>credit-card-validator</module>
+        <module>mysql-bulk-loader</module>
+        <module>yaml-input</module>
+        <module>metastore-locator</module>
+        <module>repository-locator</module>
+        <module>rss</module>
+        <module>mondrianinput</module>
+        <module>mail-job</module>
+        <module>avro-format</module>
+        <module>get-repository-names</module>
+        <module>sftpput</module>
+        <module>put-file-sftp</module>
+        <module>connected-to-repository</module>
+        <module>get-file-sftp</module>
+        <module>ftps</module>
+        <module>mail</module>
+        <module>export-repository</module>
+        <module>ftp-delete</module>
+        <module>mail-validator</module>
+        <module>email-messages</module>
+        <module>get-file-with-ftp</module>
+        <module>msg-box-info</module>
+      </modules>
+    </profile>
+
+    <profile>
+      <id>highdeps</id>
+      <activation>
+        <property>
+          <name>!skipDefault</name>
+        </property>
+      </activation>
+      <modules>
+        <module>core</module>
+        <module>core-ui</module>
+        <module>file-open-save-new</module>
+        <module>connections</module>
+        <module>repositories</module>
+        <module>meta-inject</module>
+        <module>engine-configuration</module>
+        <module>get-previous-row-field</module>
+        <module>aggregate-rows</module>
+        <module>google-analytics</module>
+        <module>pentaho-googledrive-vfs</module>
+        <module>hl7</module>
+        <module>drools</module>
+        <module>dummy</module>
+        <module>json</module>
+        <module>s3csvinput</module>
+        <module>sap</module>
+        <module>shapefilereader</module>
+        <module>gpload</module>
+        <module>version-checker</module>
+        <module>salesforce</module>
+        <module>pur</module>
+        <module>ms-access</module>
+        <module>xml</module>
+        <module>streaming</module>
+        <module>metastore-locator</module>
+        <module>repository-locator</module>
+        <module>ldap</module>
+        <module>excel</module>
+        <module>pentaho-reporting</module>
+        <module>rest</module>
+        <module>put-a-file-with-ftp</module>
+      </modules>
+    </profile>
+
+  </profiles>
+</project>

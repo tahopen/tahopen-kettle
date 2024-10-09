@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>tahopen-streaming</artifactId>
+  <version>0.1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <parent>
+    <groupId>org.tahopen.di.plugins</groupId>
+    <artifactId>tdi-plugins</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <name>tahopen Streaming Plugins</name>
+
+  <properties>
+    <pdi.version>0.1.0.0-SNAPSHOT</pdi.version>
+    <pentaho-metaverse.version>0.1.0.0-SNAPSHOT</pentaho-metaverse.version>
+  </properties>
+
+  <modules>
+    <module>impls</module>
+    <module>assemblies</module>
+  </modules>
+</project>

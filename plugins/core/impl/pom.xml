@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>tdi-core</artifactId>
+    <groupId>org.tahopen.di.plugins</groupId>
+    <version>0.1.0.0-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>tdi-core-plugins-impl</artifactId>
+  <name>TDI Core Plugins Impl</name>
+
+  <properties>
+    <mockito-core.version>1.10.19</mockito-core.version>
+    <pentaho-reporting.version>0.1.0.0-SNAPSHOT</pentaho-reporting.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>tahopen-kettle</groupId>
+      <artifactId>kettle-core</artifactId>
+      <version>0.1.0.0-SNAPSHOT</version>  
+      <!-- <scope>provided</scope> -->
+    </dependency>
+    <dependency>
+      <groupId>tahopen-kettle</groupId>
+      <artifactId>kettle-engine</artifactId>
+      <version>0.1.0.0-SNAPSHOT</version>  
+      <!-- <scope>provided</scope> -->
+    </dependency>
+    <dependency>
+      <groupId>org.tahopen.reporting.engine</groupId>
+      <artifactId>classic-core</artifactId>
+      <version>${pentaho-reporting.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.apache.commons</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.bouncycastle</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <!-- Test dependencies -->
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>${mockito-core.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>tahopen-kettle</groupId>
+      <artifactId>kettle-engine</artifactId>
+      <version>0.1.0.0-SNAPSHOT</version>  
+      <classifier>tests</classifier>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>tahopen-kettle</groupId>
+      <artifactId>kettle-core</artifactId>
+          <version>0.1.0.0-SNAPSHOT</version>  
+          <classifier>tests</classifier>
+          <scope>test</scope> 
+    </dependency>
+      <dependency>
+        <groupId>com.h2database</groupId>
+        <artifactId>h2</artifactId>
+        <version>${h2.version}</version>
+        <scope>test</scope>
+      </dependency>
+      
+  </dependencies>
+
+</project>

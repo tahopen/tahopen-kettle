@@ -1,0 +1,370 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.tahopen.di</groupId>
+  <artifactId>tdi</artifactId>
+  <version>0.1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>Tahopen Data Integration</name>
+  <description>Container pom for Tahopen Data Integration modules</description>
+  <url>http://www.tahopen.org</url>
+
+  <parent>
+    <groupId>org.tahopen</groupId>
+    <artifactId>tahopen-ce-jar-parent-pom</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
+  </parent>
+<!--
+  <scm>
+    <developerConnection>scm:git:git@github.com:pentaho/pentaho-kettle.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+-->
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+    <license>
+      <name>GNU Lesser General Public License, Version 2.1</name>
+      <url>https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt</url>
+      <distribution>repo</distribution>
+      <comments></comments>
+    </license>
+    <license>
+      <name>GNU Lesser General Public License, Version 3.0</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
+      <distribution>repo</distribution>
+      <comments></comments>
+    </license>
+  </licenses>
+
+  <properties>
+    <maven.build.timestamp.format>yyyy-MM-dd hh.mm.ss</maven.build.timestamp.format>
+    <maven-surefire-plugin.argLine>-Duser.timezone=UTC -Dfile.encoding=UTF-8 -Duser.language=en -Duser.country=US -Djava.locale.providers=COMPAT,SPI</maven-surefire-plugin.argLine>
+
+    <!-- License Configuration -->
+    <license.licenseName>apache_v2</license.licenseName>
+
+    <!-- tahopen dependencies -->
+    <commons-xul.version>0.1.0.0-SNAPSHOT</commons-xul.version>
+    <tahopen-metastore.version>0.1.0.0-SNAPSHOT</tahopen-metastore.version>
+
+    <!-- Third-party dependencies -->
+    <org.eclipse.swt.version>4.6</org.eclipse.swt.version>
+    <encoder.version>1.2</encoder.version>
+    <wstx-asl.version>3.2.4</wstx-asl.version>
+    <jsch.version>0.2.9</jsch.version>
+    <jface.version>3.3.0-I20070606-0010</jface.version>
+
+    <!-- Test dependencies -->
+    <mockito-all.version>1.10.19</mockito-all.version>
+    <mockito.version>3.12.4</mockito.version>
+
+    <powermock-module-junit4.version>1.7.3</powermock-module-junit4.version>
+    <powermock-api-mockito.version>1.7.3</powermock-api-mockito.version>
+    <java-hamcrest.version>2.0.0.0</java-hamcrest.version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.tahopen</groupId>
+        <artifactId>commons-xul-core</artifactId>
+        <version>${commons-xul.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.tahopen</groupId>
+        <artifactId>commons-xul-swing</artifactId>
+        <version>${commons-xul.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.tahopen</groupId>
+        <artifactId>commons-xul-swt</artifactId>
+        <version>${commons-xul.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>org.eclipse.swt</groupId>
+            <artifactId>*</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>org.tahopen</groupId>
+        <artifactId>metastore</artifactId>
+        <version>${tahopen-metastore.version}</version>
+      </dependency>
+
+      <!-- Third-party dependencies -->
+      <dependency>
+        <groupId>org.eclipse.swt</groupId>
+        <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
+        <version>${org.eclipse.swt.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>*</groupId>
+            <artifactId>*</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.platform</groupId>
+        <artifactId>org.eclipse.jface</artifactId>
+        <version>3.22.0</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.platform</groupId>
+        <artifactId>org.eclipse.core.commands</artifactId>
+        <version>3.9.800</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.platform</groupId>
+        <artifactId>org.eclipse.equinox.common</artifactId>
+        <version>3.14.0</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.platform</groupId>
+        <artifactId>org.eclipse.equinox.bidi</artifactId>
+        <version>1.3.0</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mozilla</groupId>
+        <artifactId>rhino</artifactId>
+        <version>${rhino.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>*</groupId>
+            <artifactId>*</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>commons-beanutils</groupId>
+        <artifactId>commons-beanutils</artifactId>
+        <version>${commons-beanutils.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>*</groupId>
+            <artifactId>*</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>${guava.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.owasp.encoder</groupId>
+        <artifactId>encoder</artifactId>
+        <version>${encoder.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>*</groupId>
+            <artifactId>*</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>com.h2database</groupId>
+        <artifactId>h2</artifactId>
+        <version>${h2.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>*</groupId>
+            <artifactId>*</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.woodstox</groupId>
+        <artifactId>wstx-asl</artifactId>
+        <version>${wstx-asl.version}</version>
+        <scope>provided</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.github.mwiede</groupId>
+        <artifactId>jsch</artifactId>
+        <version>${jsch.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>*</groupId>
+            <artifactId>*</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+
+      <!-- Test dependencies -->
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-all</artifactId>
+        <version>${mockito-all.version}</version>
+        <scope>test</scope>
+        <exclusions>
+          <exclusion>
+            <groupId>*</groupId>
+            <artifactId>*</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>org.hamcrest</groupId>
+        <artifactId>java-hamcrest</artifactId>
+        <version>${java-hamcrest.version}</version>
+        <scope>test</scope>
+        <exclusions>
+          <exclusion>
+            <groupId>*</groupId>
+            <artifactId>*</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>org.powermock</groupId>
+        <artifactId>powermock-module-junit4</artifactId>
+        <version>${powermock-module-junit4.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.powermock</groupId>
+        <artifactId>powermock-api-mockito</artifactId>
+        <version>${powermock-api-mockito.version}</version>
+        <scope>test</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <systemPropertyVariables>
+            <user.language>en</user.language>
+            <user.region>US</user.region>
+            <user.timezone>UTC</user.timezone>
+            <file.encoding>UTF-8</file.encoding>
+            <java.locale.providers>COMPAT,SPI</java.locale.providers>
+          </systemPropertyVariables>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifestEntries>
+              <Compile-Timestamp>${maven.build.timestamp}</Compile-Timestamp>
+              <Compile-User>${user.name}</Compile-User>
+              <Implementation-ProductID>${project.artifactId}</Implementation-ProductID>
+            </manifestEntries>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <profiles>
+
+    <profile>
+      <id>base</id>
+      <activation>
+        <property>
+          <name>!skipDefault</name>
+        </property>
+      </activation>
+      <modules>
+        <module>engine-ext</module>
+        <module>core</module>
+        <module>engine</module>
+        <module>dbdialog</module>
+        <module>ui</module>
+        <module>utilities</module>
+      </modules>
+    </profile>
+
+    <profile>
+      <id>plugins</id>
+      <activation>
+        <property>
+          <name>!skipDefault</name>
+        </property>
+      </activation>
+      <modules>
+        <module>plugins</module>
+      </modules>
+    </profile>
+
+    <profile>
+      <id>assemblies</id>
+      <activation>
+        <property>
+          <name>!skipDefault</name>
+        </property>
+      </activation>
+      <modules>
+        <module>assemblies</module>
+      </modules>
+    </profile>
+
+    <profile>
+      <id>osgi</id>
+
+      <activation>
+        <property>
+          <name>osgi</name>
+        </property>
+      </activation>
+
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-clean-plugin</artifactId>
+            <executions>
+              <execution>
+                <!-- override clean and don't delete the zips in target, this helps hadoop-addon and makes the pipeline cleaner
+                     if you really need a full cleaning run clean without activating this profile -->
+                <id>default-clean</id>
+                <configuration>
+                  <excludeDefaultDirectories>true</excludeDefaultDirectories>
+                  <filesets>
+                    <fileset>
+                      <directory>${project.build.directory}</directory>
+                      <followSymlinks>false</followSymlinks>
+                      <useDefaultExcludes>true</useDefaultExcludes>
+                      <excludes>
+                        <exclude>*.zip</exclude>
+                      </excludes>
+                    </fileset>
+                  </filesets>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+      
+    </profile>
+
+  </profiles>
+
+
+  <repositories>
+ 
+  </repositories>
+
+  <pluginRepositories>
+ 
+  </pluginRepositories>
+
+
+</project>
