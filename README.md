@@ -1,6 +1,6 @@
-# Pentaho Data Integration # 
+# Tahopen Data Integration # 
 
-Pentaho Data Integration ( ETL ) a.k.a Kettle
+Tahopen Data Integration ( ETL ) a.k.a Kettle
 
 ### Project Structure
 
@@ -13,18 +13,18 @@ Database dialog
 * **ui:** 
 User interface
 * **engine:** 
-PDI engine
+TDI engine
 * **engine-ext:** 
-PDI engine extensions
+TDI engine extensions
 * **[plugins:](plugins/README.md)** 
-PDI core plugins
+TDI core plugins
 * **integration:** 
 Integration tests
 
 How to build
 --------------
 
-Pentaho Data Integration uses the Maven framework. 
+Tahopen Data Integration uses the Maven framework. 
 
 
 #### Pre-requisites for building the project:
@@ -136,6 +136,3 @@ public class MyTest {
   }
 }
 ```  
-
-### Asking for help
-Please go to https://community.hitachivantara.com/community/products-and-solutions/pentaho/ to ask questions and get help.
