@@ -1,6 +1,6 @@
 # Tahopen Data Integration # 
 
-Tahopen Data Integration ( ETL ) a.k.a Kettle
+Tahopen Data Integration (ETL) 
 
 ### Project Structure
 
