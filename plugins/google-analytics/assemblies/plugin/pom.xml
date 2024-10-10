@@ -5,25 +5,25 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.pentaho.di.plugins</groupId>
+    <groupId>org.tahopen.di.plugins</groupId>
     <artifactId>google-analytics-assemblies</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>pdi-google-analytics-plugin</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <artifactId>tdi-google-analytics-plugin</artifactId>
+  <version>0.1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>PDI Google Analytics Plugin Distribution</name>
+  <name>TDI Google Analytics Plugin Distribution</name>
 
   <properties>
-    <project.revision>10.1.0.0-SNAPSHOT</project.revision>
+    <project.revision>0.1.0.0-SNAPSHOT</project.revision>
   </properties>
 
   <dependencies>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
-      <artifactId>pdi-google-analytics-plugin-core</artifactId>
+      <groupId>org.tahopen.di.plugins</groupId>
+      <artifactId>tdi-google-analytics-plugin-core</artifactId>
       <version>${project.revision}</version>
       <scope>provided</scope>
     </dependency>

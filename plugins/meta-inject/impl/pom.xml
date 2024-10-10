@@ -5,20 +5,20 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.pentaho.di.plugins</groupId>
+    <groupId>org.tahopen.di.plugins</groupId>
     <artifactId>meta-inject</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>meta-inject-plugins-impl</artifactId>
-  <name>PDI Metadata Injection Plugins Impl</name>
+  <name>TDI Metadata Injection Plugins Impl</name>
 
   <properties>
     <mockito.version>1.10.19</mockito.version>
     <java-hamcrest.version>2.0.0.0</java-hamcrest.version>
     <mockito.version>1.10.19</mockito.version>
     <powermock.version>1.6.3</powermock.version>
-    <platform.version>10.1.0.0-SNAPSHOT</platform.version>
+    <platform.version>0.1.0.0-SNAPSHOT</platform.version>
   </properties>
 
     <dependencies>
@@ -41,18 +41,18 @@
       <dependency>
           <groupId>pentaho-kettle</groupId>
           <artifactId>kettle-ui-swt</artifactId>
-          <version>${pdi.version}</version>
+          <version>9.4.0.0-SNAPSHOT</version>
           <scope>provided</scope>
       </dependency>
       <dependency>
-          <groupId>pentaho</groupId>
-          <artifactId>pentaho-metaverse-api</artifactId>
+          <groupId>org.tahopen</groupId>
+          <artifactId>tahopen-metaverse-api</artifactId>
           <version>${pentaho-metaverse.version}</version>
           <scope>provided</scope>
       </dependency>
       <dependency>
-        <groupId>pentaho</groupId>
-        <artifactId>pentaho-platform-core</artifactId>
+        <groupId>org.tahopen</groupId>
+        <artifactId>tahopen-platform-core</artifactId>
         <version>${platform.version}</version>
         <scope>provided</scope>
       </dependency>
@@ -60,14 +60,14 @@
         <dependency>
             <groupId>pentaho-kettle</groupId>
             <artifactId>kettle-core</artifactId>
-            <version>${pdi.version}</version>
+            <version>9.4.0.0-SNAPSHOT</version>
             <classifier>tests</classifier>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>pentaho-kettle</groupId>
             <artifactId>kettle-engine</artifactId>
-            <version>${pdi.version}</version>
+            <version>9.4.0.0-SNAPSHOT</version>
             <classifier>tests</classifier>
             <scope>test</scope>
         </dependency>

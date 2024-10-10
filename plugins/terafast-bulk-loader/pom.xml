@@ -5,19 +5,19 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.pentaho.di.plugins</groupId>
-        <artifactId>pdi-plugins</artifactId>
-        <version>10.1.0.0-SNAPSHOT</version>
+        <groupId>org.tahopen.di.plugins</groupId>
+        <artifactId>tdi-plugins</artifactId>
+        <version>0.1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>org.pentaho.di.plugins</groupId>
+    <groupId>org.tahopen.di.plugins</groupId>
     <artifactId>terafast-bulk-loader</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>PDI TeraData FastLoad Bulk Loader Plugin</name>
-    <description>This plugin is for pentaho Data integration (ETL) a.k.a kettle</description>
-    <url>http://www.pentaho.com/</url>
+    <name>TDI TeraData FastLoad Bulk Loader Plugin</name>
+    <description>This plugin is for Tahopen Data integration</description>
+    <url>http://www.tahopen.org/</url>
 
     <modules>
         <module>impl</module>
@@ -45,19 +45,19 @@
             <dependency>
                 <groupId>pentaho-kettle</groupId>
                 <artifactId>kettle-engine</artifactId>
-                <version>${pdi.version}</version>
+                <version>9.4.0.0-SNAPSHOT</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
                 <groupId>pentaho-kettle</groupId>
                 <artifactId>kettle-core</artifactId>
-                <version>${pdi.version}</version>
+                <version>9.4.0.0-SNAPSHOT</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
                 <groupId>pentaho-kettle</groupId>
                 <artifactId>kettle-ui-swt</artifactId>
-                <version>${pdi.version}</version>
+                <version>9.4.0.0-SNAPSHOT</version>
                 <scope>provided</scope>
             </dependency>
 
@@ -90,14 +90,14 @@
             <dependency>
                 <groupId>pentaho-kettle</groupId>
                 <artifactId>kettle-core</artifactId>
-                <version>${pdi.version}</version>
+                <version>9.4.0.0-SNAPSHOT</version>
                 <classifier>tests</classifier>
                 <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>pentaho-kettle</groupId>
                 <artifactId>kettle-engine</artifactId>
-                <version>${pdi.version}</version>
+                <version>9.4.0.0-SNAPSHOT</version>
                 <classifier>tests</classifier>
                 <scope>test</scope>
             </dependency>

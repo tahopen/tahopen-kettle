@@ -4,13 +4,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.pentaho.di.plugins</groupId>
-    <artifactId>pdi-plugins</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen.di.plugins</groupId>
+    <artifactId>tdi-plugins</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>connections</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Connections Plugin</name>
@@ -21,7 +21,7 @@
   </modules>
 
   <properties>
-    <pdi.version>10.1.0.0-SNAPSHOT</pdi.version>
+    <pdi.version>0.1.0.0-SNAPSHOT</pdi.version>
     <dependency.karaf.version>3.0.3</dependency.karaf.version>
     <dependency.osgi.version>4.3.1</dependency.osgi.version>
     <version.for.license>${project.version}</version.for.license>
@@ -40,24 +40,24 @@
       <dependency>
         <groupId>pentaho-kettle</groupId>
         <artifactId>kettle-core</artifactId>
-        <version>${pdi.version}</version>
+        <version>9.4.0.0-SNAPSHOT</version>
         <scope>provided</scope>
       </dependency>
       <dependency>
         <groupId>pentaho-kettle</groupId>
         <artifactId>kettle-ui-swt</artifactId>
-        <version>${pdi.version}</version>
+        <version>9.4.0.0-SNAPSHOT</version>
         <scope>provided</scope>
       </dependency>
       <dependency>
         <groupId>pentaho-kettle</groupId>
         <artifactId>kettle-engine</artifactId>
-        <version>${pdi.version}</version>
+        <version>9.4.0.0-SNAPSHOT</version>
         <scope>provided</scope>
       </dependency>
       <dependency>
-        <groupId>pentaho</groupId>
-        <artifactId>pentaho-platform-extensions</artifactId>
+        <groupId>org.tahopen</groupId>
+        <artifactId>tahopen-platform-extensions</artifactId>
         <version>${project.version}</version>
         <scope>provided</scope>
         <exclusions>
@@ -68,8 +68,8 @@
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>pentaho</groupId>
-        <artifactId>pentaho-i18n-bundle</artifactId>
+        <groupId>org.tahopen</groupId>
+        <artifactId>tahopen-i18n-bundle</artifactId>
         <version>${project.version}</version>
         <scope>provided</scope>
         <exclusions>
@@ -88,7 +88,7 @@
       <dependency>
         <groupId>org.pentaho.di.plugins</groupId>
         <artifactId>core-ui</artifactId>
-        <version>${pdi.version}</version>
+        <version>9.4.0.0-SNAPSHOT</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
