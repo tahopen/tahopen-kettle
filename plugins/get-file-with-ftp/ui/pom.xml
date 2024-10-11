@@ -5,17 +5,17 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.pentaho.di.plugins</groupId>
+    <groupId>org.tahopen.di.plugins</groupId>
     <artifactId>get-file-with-ftp</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>get-file-with-ftp-plugins-ui</artifactId>
-  <name>PDI Get file with FTP Plugins UI</name>
+  <name>TDI Get file with FTP Plugins UI</name>
 
   <dependencies>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>get-file-with-ftp-plugins-impl</artifactId>
       <version>${project.version}</version>
     </dependency>

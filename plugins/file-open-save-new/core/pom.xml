@@ -6,16 +6,16 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.pentaho.di.plugins</groupId>
+    <groupId>org.tahopen.di.plugins</groupId>
     <artifactId>file-open-save-new</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>file-open-save-new-core</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0-SNAPSHOT</version>
   <!-- <packaging>bundle</packaging> -->
 
-  <name>PDI File Open and Save New Plugin Core</name>
+  <name>TDI File Open and Save New Plugin Core</name>
 
   <properties>
     <maven-replacer-plugin.version>1.5.2</maven-replacer-plugin.version>
@@ -124,14 +124,6 @@
 
   </build>
   <repositories>
-    <repository>
-      <id>PentahoOmni</id>
-      <name>Pentaho_Omni</name>
-      <layout>default</layout>
-      <url>https://nexus.pentaho.org/content/groups/omni/</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
+  
   </repositories>
 </project>

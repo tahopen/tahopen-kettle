@@ -5,13 +5,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.pentaho.di.plugins</groupId>
+    <groupId>org.tahopen.di.plugins</groupId>
     <artifactId>ftp-delete</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>ftp-delete-plugins-impl</artifactId>
-  <name>PDI FTP Delete Plugins Impl</name>
+  <name>TDI FTP Delete Plugins Impl</name>
 
   <dependencies>
     <dependency>
@@ -55,7 +55,7 @@
       <scope>test</scope>
     </dependency>
       <dependency>
-          <groupId>org.pentaho.di.plugins</groupId>
+          <groupId>org.tahopen.di.plugins</groupId>
           <artifactId>ftps-plugin-impl</artifactId>
           <version>${project.version}</version>
           <scope>compile</scope>

@@ -5,13 +5,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.pentaho.di.plugins</groupId>
+    <groupId>org.tahopen.di.plugins</groupId>
     <artifactId>get-file-sftp</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>get-file-sftp-plugin-impl</artifactId>
-  <name>PDI Get File SFTP Impl</name>
+  <name>TDI Get File SFTP Impl</name>
 
   <properties>
    <sshd-sftp.version>0.11.0</sshd-sftp.version>

@@ -4,16 +4,16 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.pentaho.di.plugins</groupId>
-    <artifactId>pdi-plugins</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen.di.plugins</groupId>
+    <artifactId>tdi-plugins</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>file-open-save-new</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>PDI File Open and Save New Plugin</name>
+  <name>TDI File Open and Save New Plugin</name>
 
   <modules>
     <module>api</module>
@@ -22,7 +22,7 @@
   </modules>
 
   <properties>
-    <pdi.version>10.1.0.0-SNAPSHOT</pdi.version>
+    <pdi.version>0.1.0.0-SNAPSHOT</pdi.version>
     <version.for.license>${project.version}</version.for.license>
     
     <swt.version>4.6</swt.version>
@@ -33,13 +33,13 @@
       <dependency>
         <groupId>pentaho-kettle</groupId>
         <artifactId>kettle-core</artifactId>
-        <version>${pdi.version}</version>
+        <version>9.4.0.0-SNAPSHOT</version>
         <scope>provided</scope>
       </dependency>
       <dependency>
         <groupId>pentaho-kettle</groupId>
         <artifactId>kettle-ui-swt</artifactId>
-        <version>${pdi.version}</version>
+        <version>9.4.0.0-SNAPSHOT</version>
         <scope>provided</scope>
       </dependency>
       <dependency>
@@ -65,7 +65,7 @@
       <dependency>
         <groupId>org.pentaho.di.plugins</groupId>
         <artifactId>core-ui</artifactId>
-        <version>${pdi.version}</version>
+        <version>9.4.0.0-SNAPSHOT</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

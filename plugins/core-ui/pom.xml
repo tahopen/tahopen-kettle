@@ -4,13 +4,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.pentaho.di.plugins</groupId>
-    <artifactId>pdi-plugins</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen.di.plugins</groupId>
+    <artifactId>tdi-plugins</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>core-ui</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
 
   <name>Core UI Plugin</name>

@@ -5,17 +5,17 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.pentaho.di.plugins</groupId>
+    <groupId>org.tahopen.di.plugins</groupId>
     <artifactId>sftpput</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>sftpput-plugin-ui</artifactId>
-  <name>PDI SFTP put Plugin UI</name>
+  <name>TDI SFTP put Plugin UI</name>
 
   <dependencies>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>sftpput-plugin-impl</artifactId>
       <version>${project.version}</version>
     </dependency>

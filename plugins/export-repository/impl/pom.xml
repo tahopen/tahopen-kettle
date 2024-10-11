@@ -5,13 +5,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.pentaho.di.plugins</groupId>
+    <groupId>org.tahopen.di.plugins</groupId>
     <artifactId>export-repository</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>export-repository-plugins-impl</artifactId>
-  <name>PDI Export Repository To XML Plugin Impl</name>
+  <name>TDI Export Repository To XML Plugin Impl</name>
 
   <dependencies>
     <dependency>

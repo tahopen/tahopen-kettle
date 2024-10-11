@@ -4,16 +4,16 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.pentaho.di.plugins</groupId>
+    <groupId>org.tahopen.di.plugins</groupId>
     <artifactId>file-open-save-new</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>file-open-save-new-api</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0-SNAPSHOT</version>
   <!-- <packaging>bundle</packaging> -->
 
-  <name>PDI File Open and Save New Plugin API</name>
+  <name>TDI File Open and Save New Plugin API</name>
 
   <properties>
     <mockito.version>3.12.4</mockito.version>

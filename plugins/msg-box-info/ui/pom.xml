@@ -5,17 +5,17 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.pentaho.di.plugins</groupId>
+    <groupId>org.tahopen.di.plugins</groupId>
     <artifactId>msg-box-info</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>msg-box-info-plugins-ui</artifactId>
-  <name>PDI Msg box info Plugin UI</name>
+  <name>TDI Msg box info Plugin UI</name>
 
   <dependencies>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>msg-box-info-plugins-impl</artifactId>
       <version>${project.version}</version>
     </dependency>

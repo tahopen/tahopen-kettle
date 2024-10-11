@@ -5,18 +5,18 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.pentaho.di.plugins</groupId>
-    <artifactId>pdi-plugins</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen.di.plugins</groupId>
+    <artifactId>tdi-plugins</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>infobright-bulk-loader</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>PDI Infobright Bulk Loader Plugins</name>
-  <description>This plugin is for pentaho Data integration (ETL) a.k.a kettle</description>
-  <url>http://www.pentaho.com/</url>
+  <name>TDI Infobright Bulk Loader Plugins</name>
+  <description>This plugin is for Tahopen Data integration</description>
+  <url>http://www.tahopen.org/</url>
 
   <modules>
     <module>impl</module>
@@ -36,7 +36,7 @@
   <properties>
     <org.eclipse.swt.version>4.6</org.eclipse.swt.version>
     <jface.version>3.3.0-I20070606-0010</jface.version>
-    <pdi.version>10.1.0.0-SNAPSHOT</pdi.version>
+    <pdi.version>9.4.0.0-SNAPSHOT</pdi.version>
   </properties>
 
   <dependencyManagement>
