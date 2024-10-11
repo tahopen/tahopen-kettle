@@ -6,19 +6,19 @@
 
   <parent>
     <artifactId>avro-format</artifactId>
-    <groupId>org.pentaho.di.plugins</groupId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen.di.plugins</groupId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>pdi-avro-format-core</artifactId>
+  <artifactId>tdi-avro-format-core</artifactId>
 
-  <name>PDI Avro Format Plugin Core</name>
+  <name>TDI Avro Format Plugin Core</name>
 
   <properties>
     <timestamp>${maven.build.timestamp}</timestamp>
     <maven.build.timestamp.format>yyyy/MM/dd hh\:mm</maven.build.timestamp.format>
     <commons-lang.version>2.6</commons-lang.version>
-    <pdi.version>10.1.0.0-SNAPSHOT</pdi.version>
+    <pdi.version>0.1.0.0-SNAPSHOT</pdi.version>
     <org.apache.avro.version>1.8.0</org.apache.avro.version>
     <jface.version>3.22.0</jface.version>
   </properties>
@@ -50,7 +50,7 @@
     <dependency>
       <groupId>pentaho-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
-      <version>${pdi.version}</version>
+      <version>9.4.0.0-SNAPSHOT</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -61,7 +61,7 @@
     <dependency>
       <groupId>pentaho-kettle</groupId>
       <artifactId>kettle-core</artifactId>
-      <version>${pdi.version}</version>
+      <version>9.4.0.0-SNAPSHOT</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -72,7 +72,7 @@
     <dependency>
       <groupId>pentaho-kettle</groupId>
       <artifactId>kettle-ui-swt</artifactId>
-      <version>${pdi.version}</version>
+      <version>9.4.0.0-SNAPSHOT</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
@@ -91,7 +91,7 @@
       <artifactId>commons-vfs2</artifactId>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>metastore</artifactId>
     </dependency>
     <dependency>
@@ -149,14 +149,14 @@
     <dependency>
       <groupId>pentaho-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
-      <version>${pdi.version}</version>
+      <version>9.4.0.0-SNAPSHOT</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>pentaho-kettle</groupId>
       <artifactId>kettle-core</artifactId>
-      <version>${pdi.version}</version>
+      <version>9.4.0.0-SNAPSHOT</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>

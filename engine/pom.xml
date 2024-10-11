@@ -113,9 +113,9 @@
 
     <!-- Tahopen dependencies -->
     <dependency>
-      <groupId>org.tahopen</groupId>
-      <artifactId>tahopen-registry</artifactId>
-      <version>${project.version}</version>
+      <groupId>org.pentaho</groupId>
+      <artifactId>pentaho-registry</artifactId>
+      <version>9.4.0.0-SNAPSHOT</version>
     </dependency>
 
 

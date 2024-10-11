@@ -5,13 +5,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.pentaho.di.plugins</groupId>
+    <groupId>org.tahopen.di.plugins</groupId>
     <artifactId>ivw-bulk-loader</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>ivw-bulk-loader-plugins-impl</artifactId>
-  <name>PDI Ingres VectorWise DB Bulk Loader Plugins Impl</name>
+  <name>TDI Ingres VectorWise DB Bulk Loader Plugins Impl</name>
 
   <dependencies>
     <dependency>
