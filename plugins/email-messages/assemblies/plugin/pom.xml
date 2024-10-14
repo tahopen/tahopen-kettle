@@ -25,7 +25,7 @@
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>email-messages-plugins-ui</artifactId>
       <version>${project.version}</version>
     </dependency>

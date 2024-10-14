@@ -22,21 +22,22 @@
 
   <dependencies>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-core</artifactId>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-ui-swt</artifactId>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>core-ui</artifactId>
-    </dependency>
+      <version>${pdi.version}</version>
+      </dependency>
     <dependency>
       <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>tahopen-metastore-locator-api</artifactId>
@@ -44,8 +45,9 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.tahopen</groupId>
-      <artifactId>tahopen-platform-extensions</artifactId>
+      <groupId>pentaho</groupId>
+      <artifactId>pentaho-platform-extensions</artifactId>
+      <version>9.4.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.tahopen</groupId>
@@ -68,9 +70,9 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-core</artifactId>
-      <version>9.4.0.0-SNAPSHOT</version>
+      <version>${pdi.version}</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
