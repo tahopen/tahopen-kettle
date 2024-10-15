@@ -1,6 +1,6 @@
 # Tahopen Data Integration # 
 
-Tahopen Data Integration (ETL) 
+Tahopen Data Integration (ETL)
 
 ### Project Structure
 
