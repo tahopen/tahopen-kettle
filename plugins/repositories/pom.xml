@@ -30,7 +30,7 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.pentaho.di.plugins</groupId>
+        <groupId>org.tahopen.di.plugins</groupId>
         <artifactId>core-ui</artifactId>
         <version>${pdi.version}</version>
       </dependency>
