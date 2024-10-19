@@ -21,7 +21,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.tahop.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>aggregate-rows-core</artifactId>
       <version>${project.revision}</version>
       <scope>runtime</scope>
