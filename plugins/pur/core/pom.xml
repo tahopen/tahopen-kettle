@@ -19,7 +19,7 @@
     <!-- Kettle dependencies -->
     <pdi.version>0.1.0.0-SNAPSHOT</pdi.version>
 
-    <!-- Pentaho dependenceis -->
+    <!-- Tahopen dependenceis -->
     <platform.version>0.1.0.0-SNAPSHOT</platform.version>
     <pentaho-json.version>0.1.0.0-SNAPSHOT</pentaho-json.version>
 
@@ -255,7 +255,7 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
       <version>${pdi.version}</version>
       <classifier>tests</classifier>
@@ -332,8 +332,8 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-platform-repository</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-platform-repository</artifactId>
       <version>${platform.version}</version>
       <classifier>tests</classifier>
       <scope>test</scope>
