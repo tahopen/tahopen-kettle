@@ -45,32 +45,16 @@
   </licenses>
 
   <repositories>
-  <!--
-    <repository>
-      <id>pentaho-nexus</id>
-      <name>PentahoNexus</name>
-      <url>https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/</url>
-    </repository>
- -->
+  
   </repositories>
 
   <pluginRepositories>
-    <pluginRepository>
-      <id>pentaho-public-plugins</id>
-      <name>Pentaho Public Plugins</name>
-      <url>https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-      <releases>
-        <updatePolicy>never</updatePolicy>
-      </releases>
-    </pluginRepository>
+
   </pluginRepositories>
 
 
   <properties>
-    <pdi.version>10.1.0.0-SNAPSHOT</pdi.version>
+    <pdi.version>0.1.0.0-SNAPSHOT</pdi.version>
     <target.jdk.version>1.8</target.jdk.version>
     <maven-bundle-plugin.version>2.4.0</maven-bundle-plugin.version>
     <junit.version>4.12</junit.version>
@@ -78,27 +62,27 @@
 
   <dependencies>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-core</artifactId>
       <version>${pdi.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
       <version>${pdi.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-ui-swt</artifactId>
       <version>${pdi.version}</version>
       <scope>provided</scope>
     </dependency>
 
      <dependency>
-          <groupId>pentaho</groupId>
-          <artifactId>pentaho-metaverse-api</artifactId>
+          <groupId>org.tahopen</groupId>
+          <artifactId>tahopen-metaverse-api</artifactId>
           <version>${pentaho-metaverse.version}</version>
           <scope>provided</scope>
      </dependency>
@@ -147,18 +131,18 @@
     <dependency>
       <groupId>org.pentaho</groupId>
       <artifactId>pentaho-encryption-support</artifactId>
-      <version>${pdi.version}</version>
+      <version>9.4.0.0-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-core</artifactId>
       <version>${project.version}</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
       <version>${project.version}</version>
       <classifier>tests</classifier>
