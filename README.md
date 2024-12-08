@@ -30,7 +30,8 @@ Tahopen Data Integration uses the Maven framework.
 #### Pre-requisites for building the project:
 * Maven, version 3+
 * Java JDK 11
-* This [settings.xml](https://raw.githubusercontent.com/pentaho/maven-parent-poms/master/maven-support-files/settings.xml) in your <user-home>/.m2 directory
+* Legacy Pentaho!
+ This [settings.xml](https://raw.githubusercontent.com/pentaho/maven-parent-poms/master/maven-support-files/settings.xml) in your <user-home>/.m2 directory
 
 #### Building it
 
@@ -128,10 +129,7 @@ __IntelliJ__
 
 ### Contributing
 
-1. Submit a pull request, referencing the relevant [Jira case](https://jira.pentaho.com/secure/Dashboard.jspa)
-2. Attach a Git patch file to the relevant [Jira case](https://jira.pentaho.com/secure/Dashboard.jspa)
-
-Use of the Pentaho checkstyle format (via `mvn checkstyle:check` and reviewing the report) and developing working 
+Use of the Tahopen checkstyle format (via `mvn checkstyle:check` and reviewing the report) and developing working 
 Unit Tests helps to ensure that pull requests for bugs and improvements are processed quickly.
 
 When writing unit tests, you have at your disposal a couple of ClassRules that can be used to maintain a healthy
