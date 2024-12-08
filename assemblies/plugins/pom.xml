@@ -193,7 +193,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>kettle-hl7-plugin</artifactId>
       <version>${kettle-hl7-plugin.version}</version>
       <type>zip</type>

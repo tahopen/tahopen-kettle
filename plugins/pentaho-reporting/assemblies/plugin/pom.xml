@@ -75,7 +75,7 @@
     </dependency>
     <dependency>
       <groupId>org.tahopen.reporting.engine</groupId>
-      <artifactId>classic-extensions-mondrian</artifactId>
+      <artifactId>classic-extensions-drianmon</artifactId>
       <version>${pentaho-reporting.version}</version>
     </dependency>
     <dependency>
@@ -129,7 +129,7 @@
                 classic-extensions,
                 classic-extensions-drill-down,
                 classic-extensions-kettle,
-                classic-extensions-mondrian,
+                classic-extensions-drianmon,
                 classic-extensions-olap4j,
                 classic-extensions-pmd,
                 classic-extensions-reportdesigner-parser,
