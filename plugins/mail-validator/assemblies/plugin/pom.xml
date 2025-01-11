@@ -7,12 +7,12 @@
   <parent>
     <groupId>org.tahopen.di.plugins</groupId>
     <artifactId>mail-validator-assemblies</artifactId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
   </parent>
 
 
   <artifactId>mail-validator-plugins</artifactId>
-  <version>0.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0</version>
   <packaging>pom</packaging>
 
   <name>TDI Mail Validator Plugins Distribution</name>

@@ -5,7 +5,7 @@
 
   <groupId>tahopen-kettle</groupId>
   <artifactId>kettle-dbdialog</artifactId>
-  <version>0.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0</version>
   <packaging>jar</packaging>
 
   <name>TDI DB Dialog</name>
@@ -13,7 +13,7 @@
   <parent>
     <groupId>org.tahopen.di</groupId>
     <artifactId>tdi</artifactId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
   </parent>
 
   <properties>
@@ -25,13 +25,13 @@
     <dependency>
       <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-core</artifactId>
-      <version>0.1.0.0-SNAPSHOT</version>      
+      <version>0.1.0.0</version>      
       <!--<version>${project.version}</version>-->
     </dependency>
     <dependency>
       <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
-        <version>0.1.0.0-SNAPSHOT</version>       
+        <version>0.1.0.0</version>       
      <!-- <version>${project.version}</version>-->
     </dependency>
 

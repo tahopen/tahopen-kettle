@@ -7,12 +7,12 @@
   <parent>
     <artifactId>tahopen-importer-utility-assembly</artifactId>
     <groupId>org.tahopen.di</groupId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
   </parent>
 
   <groupId>org.tahopen.di</groupId>
   <artifactId>tahopen-importer-utility</artifactId>
-  <version>0.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0</version>
 
   <packaging>pom</packaging>
 

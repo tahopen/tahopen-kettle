@@ -6,7 +6,7 @@
 
   <groupId>tahopen-kettle</groupId>
   <artifactId>kettle-engine</artifactId>
-  <version>0.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0</version>
   <packaging>jar</packaging>
 
   <name>TDI Engine</name>
@@ -14,7 +14,7 @@
   <parent>
     <groupId>org.tahopen.di</groupId>
     <artifactId>tdi</artifactId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
   </parent>
 
   <properties>
@@ -24,10 +24,10 @@
     <maven-failsafe-plugin.reuseForks>false</maven-failsafe-plugin.reuseForks>
 
     <!-- Pentaho dependencies -->
-    <pentaho-reporting.version>0.1.0.0-SNAPSHOT</pentaho-reporting.version>
-    <pentaho-registry.version>0.1.0.0-SNAPSHOT</pentaho-registry.version>
-    <pentaho-connections.version>0.1.0.0-SNAPSHOT</pentaho-connections.version>
-    <mondrian.version>0.1.0.0-SNAPSHOT</mondrian.version>
+    <pentaho-reporting.version>0.1.0.0</pentaho-reporting.version>
+    <pentaho-registry.version>0.1.0.0</pentaho-registry.version>
+    <pentaho-connections.version>0.1.0.0</pentaho-connections.version>
+    <mondrian.version>0.1.0.0</mondrian.version>
 
     <!-- Third-party dependencies -->
     <antlr-complete.version>3.5.2</antlr-complete.version>
@@ -113,9 +113,9 @@
 
     <!-- Tahopen dependencies -->
     <dependency>
-      <groupId>org.pentaho</groupId>
-      <artifactId>pentaho-registry</artifactId>
-      <version>9.4.0.0-SNAPSHOT</version>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-registry</artifactId>
+      <version>0.1.0.0</version>
     </dependency>
 
 

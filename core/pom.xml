@@ -6,7 +6,7 @@
 
   <groupId>tahopen-kettle</groupId>
   <artifactId>kettle-core</artifactId>
-  <version>0.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0</version>
   <packaging>jar</packaging>
 
   <name>TDI Core</name>
@@ -14,7 +14,7 @@
   <parent>
     <groupId>org.tahopen.di</groupId>
     <artifactId>tdi</artifactId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
   </parent>
 
   <properties>
@@ -34,7 +34,7 @@
     <woodstox-core-asl.version>4.4.1</woodstox-core-asl.version>
     <xmlunit.version>1.5</xmlunit.version>
     <joda.version>2.10.2</joda.version>
-    <encryption-support.version>0.1.0.0-SNAPSHOT</encryption-support.version>
+    <encryption-support.version>0.1.0.0</encryption-support.version>
   </properties>
 
   <dependencies>
@@ -42,13 +42,13 @@
      <dependency>
       <groupId>org.tahopen</groupId>
       <artifactId>metastore</artifactId>
-      <version>0.1.0.0-SNAPSHOT</version>
+      <version>${tahopen-metastore.version}</version>
     </dependency>
  
     <dependency>
       <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>tahopen-metastore-locator-api</artifactId>
-      <version>0.1.0.0-SNAPSHOT</version>
+      <version>${tahopen-metastore.version}</version>
     </dependency>
   
     <!-- Third-party dependencies -->
@@ -431,8 +431,7 @@
     <dependency>
       <groupId>org.tahopen</groupId>
       <artifactId>simple-jndi</artifactId>
-      <version>0.1.0.0-SNAPSHOT</version>
-      <!-- <version>${simple-jndi.version}</version> -->
+      <version>0.1.0.0</version>
     </dependency>
     <dependency> <!-- included only to provide FTP file providers; not used by code -->
       <groupId>commons-net</groupId>
@@ -505,17 +504,10 @@
       <version>8.5.27</version>
     </dependency>
 
-<!--
     <dependency>
       <groupId>org.tahopen</groupId>
       <artifactId>tahopen-encryption-support</artifactId>
       <version>${encryption-support.version}</version>
-    </dependency>
--->
-  <dependency>
-      <groupId>org.pentaho</groupId>
-      <artifactId>pentaho-encryption-support</artifactId>
-      <version>9.4.0.0-SNAPSHOT</version>
     </dependency>
 
   </dependencies>

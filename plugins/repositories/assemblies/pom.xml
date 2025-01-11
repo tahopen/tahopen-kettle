@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>repositories-assemblies</artifactId>
-  <version>0.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0</version>
   <packaging>pom</packaging>
 
   <name>TDI Repositories Plugin Assemblies</name>
@@ -12,7 +12,7 @@
   <parent>
     <groupId>org.tahopen.di.plugins</groupId>
     <artifactId>repositories</artifactId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
   </parent>
 
   <modules>
