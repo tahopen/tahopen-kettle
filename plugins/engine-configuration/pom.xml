@@ -16,7 +16,7 @@
   <name>TDI Engine Configuration Plugin</name>
 
   <properties>
-    <pdi.version>0.1.0.0-SNAPSHOT</pdi.version>
+    <pdi.version>0.1.0.0</pdi.version>
   </properties>
 
   <modules>

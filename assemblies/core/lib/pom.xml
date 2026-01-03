@@ -19,15 +19,15 @@
         <pdi-engine-spark.version>${project.version}</pdi-engine-spark.version>
         <rxjava.version>2.2.3</rxjava.version>
 
-        <pentaho-json.version>0.1.0.0-SNAPSHOT</pentaho-json.version>
+        <pentaho-json.version>0.1.0.0</pentaho-json.version>
         <pdi-spark-driver.version>${project.version}</pdi-spark-driver.version>
-        <commons-database.version>0.1.0.0-SNAPSHOT</commons-database.version>
-        <pentaho-registry.version>0.1.0.0-SNAPSHOT</pentaho-registry.version>
-        <pentaho-metaverse.version>0.1.0.0-SNAPSHOT</pentaho-metaverse.version>
-        <platform.version>0.1.0.0-SNAPSHOT</platform.version>
-        <pentaho-reporting.version>0.1.0.0-SNAPSHOT</pentaho-reporting.version>
-        <pdi-osgi-bridge.version>0.1.0.0-SNAPSHOT</pdi-osgi-bridge.version>
-        <pentaho-hadoop-shims.version>0.1.0.0-SNAPSHOT</pentaho-hadoop-shims.version>
+        <commons-database.version>0.1.0.0</commons-database.version>
+        <pentaho-registry.version>0.1.0.0</pentaho-registry.version>
+        <pentaho-metaverse.version>0.1.0.0</pentaho-metaverse.version>
+        <platform.version>0.1.0.0</platform.version>
+        <pentaho-reporting.version>0.1.0.0</pentaho-reporting.version>
+        <pdi-osgi-bridge.version>0.1.0.0</pdi-osgi-bridge.version>
+        <pentaho-hadoop-shims.version>0.1.0.0</pentaho-hadoop-shims.version>
 
         <!-- third party -->
         <derbyclient.version>10.2.1.6</derbyclient.version>

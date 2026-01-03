@@ -15,7 +15,7 @@
 
   <properties>
     <poi.version>4.1.1</poi.version>
-    <platform.version>0.1.0.0-SNAPSHOT</platform.version>
+    <platform.version>0.1.0.0</platform.version>
   </properties>
 
   <dependencies>

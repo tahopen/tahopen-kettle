@@ -16,8 +16,8 @@
   <name>tahopen Streaming Plugins</name>
 
   <properties>
-    <pdi.version>0.1.0.0-SNAPSHOT</pdi.version>
-    <pentaho-metaverse.version>0.1.0.0-SNAPSHOT</pentaho-metaverse.version>
+    <pdi.version>0.1.0.0</pdi.version>
+    <pentaho-metaverse.version>0.1.0.0</pentaho-metaverse.version>
   </properties>
 
   <modules>

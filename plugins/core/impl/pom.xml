@@ -14,7 +14,7 @@
 
   <properties>
     <mockito-core.version>1.10.19</mockito-core.version>
-    <pentaho-reporting.version>0.1.0.0-SNAPSHOT</pentaho-reporting.version>
+    <pentaho-reporting.version>0.1.0.0</pentaho-reporting.version>
   </properties>
 
   <dependencies>

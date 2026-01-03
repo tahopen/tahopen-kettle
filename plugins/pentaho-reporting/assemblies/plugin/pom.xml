@@ -18,7 +18,7 @@
   <description></description>
 
   <properties>
-    <pentaho-reporting.version>0.1.0.0-SNAPSHOT</pentaho-reporting.version>
+    <pentaho-reporting.version>0.1.0.0</pentaho-reporting.version>
   </properties>
 
   <dependencies>

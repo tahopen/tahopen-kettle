@@ -17,9 +17,9 @@
   <properties>
     <pdi-dataservice-driver-bundle.version>${project.version}</pdi-dataservice-driver-bundle.version>
 
-    <pentaho-launcher.version>0.1.0.0-SNAPSHOT</pentaho-launcher.version>
-    <oss-licenses.version>0.1.0.0-SNAPSHOT</oss-licenses.version>
-    <pentaho-karaf.version>0.1.0.0-SNAPSHOT</pentaho-karaf.version>
+    <pentaho-launcher.version>0.1.0.0</pentaho-launcher.version>
+    <oss-licenses.version>10.1.0.0-SNAPSHOT</oss-licenses.version>
+    <pentaho-karaf.version>0.1.0.0</pentaho-karaf.version>
 
     <!-- swt -->
     <org.eclipse.swt.gtk.linux.x86.version>3.108.0</org.eclipse.swt.gtk.linux.x86.version>
@@ -56,12 +56,14 @@
         </exclusion>
       </exclusions>
     </dependency>
+<!--
     <dependency>
-      <groupId>org.tahopen</groupId>
+      <groupId>pentaho</groupId>
       <artifactId>oss-licenses</artifactId>
       <version>${oss-licenses.version}</version>
       <type>zip</type>
     </dependency>
+-->
     <!-- swt -->
     <dependency>
       <groupId>org.eclipse.platform</groupId>

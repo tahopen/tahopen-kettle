@@ -18,11 +18,11 @@
 
   <properties>
     <!-- Kettle dependencies -->
-    <pdi.version>0.1.0.0-SNAPSHOT</pdi.version>
-    <metastore.version>0.1.0.0-SNAPSHOT</metastore.version>
-    <platform.version>0.1.0.0-SNAPSHOT</platform.version>
-    <pentaho-osgi-bundles.version>0.1.0.0-SNAPSHOT</pentaho-osgi-bundles.version>
-    <pdi-pur-plugin.version>0.1.0.0-SNAPSHOT</pdi-pur-plugin.version>
+    <pdi.version>0.1.0.0</pdi.version>
+    <metastore.version>0.1.0.0</metastore.version>
+    <platform.version>0.1.0.0</platform.version>
+    <pentaho-osgi-bundles.version>0.1.0.0</pentaho-osgi-bundles.version>
+    <pdi-pur-plugin.version>0.1.0.0</pdi-pur-plugin.version>
     <junit.version>4.11</junit.version>
     <mockito-core.version>1.9.5</mockito-core.version>
   </properties>

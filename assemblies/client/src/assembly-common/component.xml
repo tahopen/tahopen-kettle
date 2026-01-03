@@ -10,10 +10,10 @@
     <!-- pdi components -->
     <dependencySet>
       <includes>
-        <include>org.tahopen.di:pdi-static:zip</include>
-        <include>org.tahopen.di:pdi-samples:zip</include>
-        <include>org.tahopen.di:pdi-libs:zip</include>
-        <include>org.tahopen.di:pdi-plugins:zip</include>
+        <include>org.tahopen.di:tdi-static:zip</include>
+        <include>org.tahopen.di:tdi-samples:zip</include>
+        <include>org.tahopen.di:tdi-libs:zip</include>
+        <include>org.tahopen.di:tdi-plugins:zip</include>
       </includes>
       <unpack>true</unpack>
       <outputDirectory>.</outputDirectory>
@@ -71,7 +71,6 @@
       <includes>
         <include>pentaho:oss-licenses:zip</include>
       </includes>
-<!--      <unpack>true</unpack>-->
       <unpack>true</unpack>
       <unpackOptions>
         <includes>
@@ -85,7 +84,7 @@
     <!-- jdbc drivers -->
     <dependencySet>
       <includes>
-        <include>pentaho:pdi-dataservice-driver-bundle:zip</include>
+        <include>org.tahopen:tdi-dataservice-driver-bundle:zip</include>
       </includes>
       <outputDirectory>Data Service JDBC Driver</outputDirectory>
       <useTransitiveDependencies>false</useTransitiveDependencies>
@@ -95,7 +94,7 @@
     <!-- application launcher -->
     <dependencySet>
       <includes>
-        <include>pentaho:pentaho-application-launcher</include>
+        <include>org.tahopen:tahopen-application-launcher</include>
       </includes>
       <outputDirectory>launcher</outputDirectory>
       <useTransitiveDependencies>false</useTransitiveDependencies>

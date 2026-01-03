@@ -21,7 +21,7 @@
     <maven-surefire-plugin.reuseForks>true</maven-surefire-plugin.reuseForks>
 
     <!-- Pentaho dependencies -->
-    <pentaho-vfs-browser.version>0.1.0.0-SNAPSHOT</pentaho-vfs-browser.version>
+    <pentaho-vfs-browser.version>0.1.0.0</pentaho-vfs-browser.version>
     <pentaho-capability-manager.version>${project.version}</pentaho-capability-manager.version>
 
     <!-- Third-party dependencies -->

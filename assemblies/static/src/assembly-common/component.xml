@@ -39,7 +39,7 @@
     <!-- get the laf.properties file -->
     <dependencySet>
       <includes>
-        <include>pentaho-kettle:kettle-ui-swt</include>
+        <include>tahopen-kettle:kettle-ui-swt</include>
       </includes>
       <unpack>true</unpack>
       <unpackOptions>

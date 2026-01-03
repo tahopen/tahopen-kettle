@@ -17,11 +17,11 @@
 
   <properties>
     <!-- Kettle dependencies -->
-    <pdi.version>0.1.0.0-SNAPSHOT</pdi.version>
+    <pdi.version>0.1.0.0</pdi.version>
 
     <!-- Tahopen dependenceis -->
-    <platform.version>0.1.0.0-SNAPSHOT</platform.version>
-    <pentaho-json.version>0.1.0.0-SNAPSHOT</pentaho-json.version>
+    <platform.version>0.1.0.0</platform.version>
+    <pentaho-json.version>0.1.0.0</pentaho-json.version>
 
     <!-- Third party dependencies -->
     <webservices-api.version>2.3.1</webservices-api.version>
