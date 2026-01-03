@@ -47,7 +47,7 @@
     <random-cc-number-generator-plugin.version>${project.version}</random-cc-number-generator-plugin.version>
     <credit-card-validator-plugin.version>${project.version}</credit-card-validator-plugin.version>
     <mondrianinput-plugin.version>${project.version}</mondrianinput-plugin.version>
-    <pdi-sap-plugin.version>9.4.0.0-SNAPSHOT</pdi-sap-plugin.version>
+    <pdi-sap-plugin.version>0.1.0.0</pdi-sap-plugin.version>
     <jms-streaming-plugin.version>${project.version}</jms-streaming-plugin.version>
     <pentaho-googledrive-vfs-plugin.version>${project.version}</pentaho-googledrive-vfs-plugin.version>
     <pentaho-cassandra-plugin.version>0.1.0.0</pentaho-cassandra-plugin.version>
@@ -206,7 +206,7 @@
     </dependency>
     <dependency>
       <groupId>org.tahopen.di.plugins</groupId>
-      <artifactId>pdi-google-analytics-plugin</artifactId>
+      <artifactId>tdi-google-analytics-plugin</artifactId>
       <version>${pdi-google-analytics-plugin.version}</version>
       <type>zip</type>
       <exclusions>
@@ -218,7 +218,7 @@
     </dependency>
     <dependency>
       <groupId>org.tahopen.di.plugins</groupId>
-      <artifactId>pdi-salesforce-plugin</artifactId>
+      <artifactId>tdi-salesforce-plugin</artifactId>
       <version>${pdi-salesforce-plugin.version}</version>
       <type>zip</type>
       <exclusions>
@@ -278,7 +278,7 @@
     </dependency>
     <dependency>
       <groupId>org.tahopen.di.plugins</groupId>
-      <artifactId>pentaho-reporting-plugins</artifactId>
+      <artifactId>tahopen-reporting-plugins</artifactId>
       <version>${pentaho-reporting-plugin.version}</version>
       <type>zip</type>
       <exclusions>
@@ -313,7 +313,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>terafast-bulk-loader-plugins</artifactId>
       <version>${terafast-bulk-loader-plugin.version}</version>
       <type>zip</type>
@@ -325,7 +325,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>rss-plugins</artifactId>
       <version>${rss-plugin.version}</version>
       <type>zip</type>
@@ -337,7 +337,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>postgresql-db-bulk-loader-plugins</artifactId>
       <version>${postgresql-db-bulk-loader-plugin.version}</version>
       <type>zip</type>
@@ -349,7 +349,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>edi2xml-plugins</artifactId>
       <version>${edi2xml-plugin.version}</version>
       <type>zip</type>
@@ -361,7 +361,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>random-cc-number-generator-plugins</artifactId>
       <version>${random-cc-number-generator-plugin.version}</version>
       <type>zip</type>
@@ -373,7 +373,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>credit-card-validator-plugins</artifactId>
       <version>${credit-card-validator-plugin.version}</version>
       <type>zip</type>
@@ -385,7 +385,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>sftpput-plugin</artifactId>
       <version>${sftpput-plugin.version}</version>
       <type>zip</type>
@@ -397,7 +397,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>put-file-sftp-plugins</artifactId>
       <version>${put-file-sftp-plugin.version}</version>
       <type>zip</type>
@@ -409,7 +409,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>mondrianinput-plugin</artifactId>
       <version>${mondrianinput-plugin.version}</version>
       <type>zip</type>
@@ -421,7 +421,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>infobright-bulk-loader-plugins</artifactId>
       <version>${infobright-bulk-loader-plugin.version}</version>
       <type>zip</type>
@@ -433,7 +433,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>excel-plugins</artifactId>
       <version>${excel-plugin.version}</version>
       <type>zip</type>
@@ -445,7 +445,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>ldap-plugins</artifactId>
       <version>${ldap-plugin.version}</version>
       <type>zip</type>
@@ -457,7 +457,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>ivw-bulk-loader-plugins</artifactId>
       <version>${ivw-bulk-loader-plugin.version}</version>
       <type>zip</type>
@@ -469,8 +469,8 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
-      <artifactId>pentaho-googledrive-vfs-plugin</artifactId>
+      <groupId>org.tahopen.di.plugins</groupId>
+      <artifactId>tahopen-googledrive-vfs-plugin</artifactId>
       <version>${pentaho-googledrive-vfs-plugin.version}</version>
       <type>zip</type>
       <exclusions>
@@ -481,7 +481,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>kettle-sap-plugin</artifactId>
       <version>${pdi-sap-plugin.version}</version>
       <type>zip</type>
@@ -505,8 +505,8 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
-      <artifactId>pdi-teradata-tpt-plugin-package</artifactId>
+      <groupId>org.tahopen.di.plugins</groupId>
+      <artifactId>tdi-teradata-tpt-plugin-package</artifactId>
       <version>${pdi-teradata-tpt-plugin-package.version}</version>
       <type>zip</type>
       <exclusions>
@@ -517,8 +517,8 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pdi-platform-utils-plugin</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tdi-platform-utils-plugin</artifactId>
       <version>${pdi-platform-utils-plugin.version}</version>
       <type>zip</type>
       <exclusions>
@@ -529,7 +529,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>com.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>mongodb-plugin</artifactId>
       <version>${pentaho-mongodb-plugin.version}</version>
       <type>zip</type>
@@ -541,7 +541,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>vertica-bulkloader-plugin</artifactId>
       <version>${vertica-bulkloader-plugin.version}</version>
       <type>zip</type>
@@ -553,8 +553,8 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
-      <artifactId>pdi-pur-plugin</artifactId>
+      <groupId>org.tahopen.di.plugins</groupId>
+      <artifactId>tdi-pur-plugin</artifactId>
       <version>${pdi-pur-plugin.version}</version>
       <type>zip</type>
       <exclusions>
@@ -565,8 +565,8 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
-      <artifactId>pdi-engine-configuration-plugin</artifactId>
+      <groupId>org.tahopen.di.plugins</groupId>
+      <artifactId>tdi-engine-configuration-plugin</artifactId>
       <version>${engine-configuration-plugin.version}</version>
       <type>zip</type>
       <exclusions>
@@ -577,8 +577,8 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
-      <artifactId>pentaho-metastore-locator-plugin</artifactId>
+      <groupId>org.tahopen.di.plugins</groupId>
+      <artifactId>tahopen-metastore-locator-plugin</artifactId>
       <version>${metastore-locator-plugin.version}</version>
       <type>zip</type>
       <exclusions>
@@ -589,7 +589,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>kettle-repository-locator-plugin</artifactId>
       <version>${repository-locator-plugin.version}</version>
       <type>zip</type>
@@ -601,7 +601,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>file-open-save-new-plugin</artifactId>
       <version>${file-open-save-new-plugin.version}</version>
       <type>zip</type>
@@ -613,7 +613,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>kettle-repository-locator-spoon-plugin</artifactId>
       <version>${repository-locator-plugin.version}</version>
       <type>zip</type>
@@ -625,7 +625,7 @@
       </exclusions>
     </dependency>
 	 <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>mysql-bulk-loader-plugins</artifactId>
       <version>${mysql-bulk-load-plugin.version}</version>
       <type>zip</type>
@@ -637,7 +637,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>repositories-plugin</artifactId>
       <version>${repositories-plugin.version}</version>
       <type>zip</type>
@@ -649,7 +649,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>connections-plugin</artifactId>
       <version>${connections-plugin.version}</version>
       <type>zip</type>
@@ -661,8 +661,8 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-s3-vfs-plugin</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-s3-vfs-plugin</artifactId>
       <version>${pentaho-s3-vfs-plugin.version}</version>
       <type>zip</type>
       <exclusions>
@@ -673,8 +673,8 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
-      <artifactId>pentaho-streaming-jms-plugin-zip</artifactId>
+      <groupId>org.tahopen.di.plugins</groupId>
+      <artifactId>tahopen-streaming-jms-plugin-zip</artifactId>
       <version>${jms-streaming-plugin.version}</version>
       <type>zip</type>
       <exclusions>
@@ -685,8 +685,8 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
-      <artifactId>pentaho-streaming-mqtt-plugin-zip</artifactId>
+      <groupId>org.tahopen.di.plugins</groupId>
+      <artifactId>tahopen-streaming-mqtt-plugin-zip</artifactId>
       <version>${mqtt-streaming-plugin.version}</version>
       <type>zip</type>
       <exclusions>
@@ -697,8 +697,8 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
-      <artifactId>pdi-avro-format-plugin</artifactId>
+      <groupId>org.tahopen.di.plugins</groupId>
+      <artifactId>tdi-avro-format-plugin</artifactId>
       <version>${pdi-avro-format-plugin.version}</version>
       <type>zip</type>
       <exclusions>
@@ -709,7 +709,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>meta-inject-plugins</artifactId>
       <version>${meta-inject-plugin.version}</version>
       <type>zip</type>
@@ -733,8 +733,8 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
-      <artifactId>pdi-xml-plugin</artifactId>
+      <groupId>org.tahopen.di.plugins</groupId>
+      <artifactId>tdi-xml-plugin</artifactId>
       <version>${pdi-xml-plugin.version}</version>
       <type>zip</type>
       <exclusions>
@@ -745,7 +745,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>metaverse-plugin</artifactId>
       <version>${pentaho-metaverse.version}</version>
       <type>zip</type>
@@ -757,7 +757,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>kettle-json-plugin</artifactId>
       <version>${pdi-json-plugin.version}</version>
       <type>zip</type>
@@ -769,7 +769,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>kettle-rest-plugin</artifactId>
       <version>${pdi-rest-plugin.version}</version>
       <type>zip</type>
@@ -865,7 +865,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
+      <groupId>org.tahopen.di.plugins</groupId>
       <artifactId>msg-box-info-plugins</artifactId>
       <version>${msg-box-info.version}</version>
       <type>zip</type>
