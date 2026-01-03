@@ -133,8 +133,8 @@
       </activation>
       <dependencies>
         <dependency>
-          <groupId>org.pentaho.di</groupId>
-          <artifactId>pdi-static</artifactId>
+          <groupId>org.tahopen.di</groupId>
+          <artifactId>tdi-static</artifactId>
           <version>${project.version}</version>
           <type>zip</type>
           <exclusions>
@@ -145,8 +145,8 @@
           </exclusions>
         </dependency>
         <dependency>
-          <groupId>org.pentaho.di</groupId>
-          <artifactId>pdi-plugins</artifactId>
+          <groupId>org.tahopen.di</groupId>
+          <artifactId>tdi-plugins</artifactId>
           <version>${project.version}</version>
           <type>zip</type>
           <exclusions>
@@ -157,8 +157,8 @@
           </exclusions>
         </dependency>
         <dependency>
-          <groupId>org.pentaho.di</groupId>
-          <artifactId>pdi-libs</artifactId>
+          <groupId>org.tahopen.di</groupId>
+          <artifactId>tdi-libs</artifactId>
           <version>${project.version}</version>
           <type>zip</type>
           <exclusions>
@@ -169,8 +169,8 @@
           </exclusions>
         </dependency>
         <dependency>
-          <groupId>org.pentaho.di</groupId>
-          <artifactId>pdi-samples</artifactId>
+          <groupId>org.tahopen.di</groupId>
+          <artifactId>tdi-samples</artifactId>
           <version>${project.version}</version>
           <type>zip</type>
           <exclusions>
@@ -241,8 +241,8 @@
       </activation>
       <dependencies>
         <dependency>
-          <groupId>org.pentaho.di</groupId>
-          <artifactId>pdi-static</artifactId>
+          <groupId>org.tahopen.di</groupId>
+          <artifactId>tdi-static</artifactId>
           <version>${project.version}</version>
           <classifier>osgi</classifier>
           <type>zip</type>
@@ -254,8 +254,8 @@
           </exclusions>
         </dependency>
         <dependency>
-          <groupId>org.pentaho.di</groupId>
-          <artifactId>pdi-plugins</artifactId>
+          <groupId>org.tahopen.di</groupId>
+          <artifactId>tdi-plugins</artifactId>
           <version>${project.version}</version>
           <classifier>osgi</classifier>
           <type>zip</type>
@@ -267,8 +267,8 @@
           </exclusions>
         </dependency>
         <dependency>
-          <groupId>org.pentaho.di</groupId>
-          <artifactId>pdi-libs</artifactId>
+          <groupId>org.tahopen.di</groupId>
+          <artifactId>tdi-libs</artifactId>
           <version>${project.version}</version>
           <classifier>osgi</classifier>
           <type>zip</type>
@@ -280,8 +280,8 @@
           </exclusions>
         </dependency>
         <dependency>
-          <groupId>org.pentaho.di</groupId>
-          <artifactId>pdi-samples</artifactId>
+          <groupId>org.tahopen.di</groupId>
+          <artifactId>tdi-samples</artifactId>
           <version>${project.version}</version>
           <classifier>osgi</classifier>
           <type>zip</type>
