@@ -53,7 +53,7 @@
     <license.licenseName>apache_v2</license.licenseName>
 
     <!-- tahopen dependencies -->
-    <commons-xul.version>0.1.0.0-SNAPSHOT</commons-xul.version>
+    <commons-xul.version>0.1.0.0</commons-xul.version>
     <tahopen-metastore.version>0.1.0.0</tahopen-metastore.version>
 
     <!-- Third-party dependencies -->

@@ -4,7 +4,10 @@
       <includes>
         <include>*:*:zip</include>
       </includes>
+<!--  Marcio
       <unpack>true</unpack>
+-->
+      <unpack>false</unpack>
       <useProjectArtifact>false</useProjectArtifact>
       <useTransitiveDependencies>false</useTransitiveDependencies>
     </dependencySet>

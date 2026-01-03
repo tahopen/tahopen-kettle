@@ -10,10 +10,10 @@
     <!-- pdi components -->
     <dependencySet>
       <includes>
-        <include>org.pentaho.di:pdi-static:zip</include>
-        <include>org.pentaho.di:pdi-samples:zip</include>
-        <include>org.pentaho.di:pdi-libs:zip</include>
-        <include>org.pentaho.di:pdi-plugins:zip</include>
+        <include>org.tahopen.di:pdi-static:zip</include>
+        <include>org.tahopen.di:pdi-samples:zip</include>
+        <include>org.tahopen.di:pdi-libs:zip</include>
+        <include>org.tahopen.di:pdi-plugins:zip</include>
       </includes>
       <unpack>true</unpack>
       <outputDirectory>.</outputDirectory>
@@ -71,6 +71,7 @@
       <includes>
         <include>pentaho:oss-licenses:zip</include>
       </includes>
+<!--      <unpack>true</unpack>-->
       <unpack>true</unpack>
       <unpackOptions>
         <includes>
