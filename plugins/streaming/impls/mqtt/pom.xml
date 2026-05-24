@@ -44,15 +44,6 @@
     </license>
   </licenses>
 
-  <repositories>
-  
-  </repositories>
-
-  <pluginRepositories>
-
-  </pluginRepositories>
-
-
   <properties>
     <pdi.version>0.1.0.0</pdi.version>
     <target.jdk.version>1.8</target.jdk.version>
@@ -129,9 +120,9 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
-      <artifactId>pentaho-encryption-support</artifactId>
-      <version>9.4.0.0-SNAPSHOT</version>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-encryption-support</artifactId>
+      <version>0.1.0.0</version>
       <scope>provided</scope>
     </dependency>
     <dependency>

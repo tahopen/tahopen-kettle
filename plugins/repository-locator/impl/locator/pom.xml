@@ -12,15 +12,15 @@
   <packaging>jar</packaging>
   <dependencies>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-core</artifactId>
-      <version>9.4.0.0-SNAPSHOT</version>
+      <version>0.1.0.0</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
-      <version>9.4.0.0-SNAPSHOT</version>
+      <version>0.1.0.0</version>
       <scope>provided</scope>
     </dependency>
     <dependency>

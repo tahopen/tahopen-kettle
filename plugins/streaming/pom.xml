@@ -13,7 +13,7 @@
     <version>0.1.0.0</version>
   </parent>
 
-  <name>tahopen Streaming Plugins</name>
+  <name>Tahopen Streaming Plugins</name>
 
   <properties>
     <pdi.version>0.1.0.0</pdi.version>

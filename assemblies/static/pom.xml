@@ -15,7 +15,7 @@
   </parent>
 
   <properties>
-    <encryption-support.version>9.4.0.0-SNAPSHOT</encryption-support.version>
+    <encryption-support.version>0.1.0.0</encryption-support.version>
   </properties>
 
   <dependencies>

@@ -21,15 +21,15 @@
       <artifactId>slf4j-api</artifactId>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
-      <version>9.4.0.0-SNAPSHOT</version>
+      <version>0.1.0.0</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-core</artifactId>
-      <version>9.4.0.0-SNAPSHOT</version>
+      <version>0.1.0.0</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -39,9 +39,9 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-platform-core</artifactId>
-      <version>9.4.0.0-SNAPSHOT</version>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-platform-core</artifactId>
+      <version>0.1.0.0</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>

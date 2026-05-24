@@ -11,7 +11,7 @@
   </parent>
 
   <artifactId>monet-db-bulk-loader-plugins-ui</artifactId>
-  <name>PDI Monet DB Bulk Loader Plugins UI</name>
+  <name>TDI Monet DB Bulk Loader Plugins UI</name>
 
   <dependencies>
     <dependency>
@@ -21,17 +21,17 @@
     </dependency>
 
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-core</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-ui-swt</artifactId>
       <scope>provided</scope>
     </dependency>

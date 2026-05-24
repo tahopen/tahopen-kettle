@@ -5,22 +5,22 @@
 
 	<packaging>bundle</packaging>
 	<parent>
-		<artifactId>pentaho-repository-vfs</artifactId>
-		<groupId>org.pentaho.di.plugins</groupId>
-		<version>10.1.0.0-SNAPSHOT</version>
+		<artifactId>tahopen-repository-vfs</artifactId>
+		<groupId>org.tahopen.di.plugins</groupId>
+		<version>0.1.0.0</version>
 	</parent>
 
-	<artifactId>pentaho-repository-vfs-core</artifactId>
+	<artifactId>tahopen-repository-vfs-core</artifactId>
 
-	<name>Pentaho Repository VFS Plugin Core</name>
+	<name>tahopen Repository VFS Plugin Core</name>
 
 	<properties>
-		<pdi.version>10.1.0.0-SNAPSHOT</pdi.version>
+		<pdi.version>0.1.0.0</pdi.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
-			<groupId>pentaho-kettle</groupId>
+			<groupId>tahopen-kettle</groupId>
 			<artifactId>kettle-core</artifactId>
 			<version>${pdi.version}</version>
 			<scope>provided</scope>
@@ -32,7 +32,7 @@
 			</exclusions>
 		</dependency>
 		<dependency>
-			<groupId>pentaho-kettle</groupId>
+			<groupId>tahopen-kettle</groupId>
 			<artifactId>kettle-engine</artifactId>
 			<version>${pdi.version}</version>
 			<scope>provided</scope>
@@ -44,19 +44,19 @@
 			</exclusions>
 		</dependency>
 		<dependency>
-			<groupId>pentaho-kettle</groupId>
+			<groupId>tahopen-kettle</groupId>
 			<artifactId>kettle-ui-swt</artifactId>
 			<version>${pdi.version}</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>pentaho</groupId>
-			<artifactId>pentaho-platform-repository</artifactId>
+			<groupId>org.tahopen</groupId>
+			<artifactId>tahopen-platform-repository</artifactId>
 			<version>${pdi.version}</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.pentaho.di.plugins</groupId>
+			<groupId>org.tahopen.di.plugins</groupId>
 			<artifactId>repositories-plugin-core</artifactId>
 			<version>${pdi.version}</version>
 			<scope>provided</scope>

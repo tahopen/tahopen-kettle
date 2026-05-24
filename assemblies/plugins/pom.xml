@@ -17,7 +17,7 @@
   <properties>
     <!-- plugins -->
     <pdi-core-plugin.version>${project.version}</pdi-core-plugin.version>
-    <big-data-plugin.version>9.4.0.0-SNAPSHOT</big-data-plugin.version>
+    <big-data-plugin.version>0.1.0.0</big-data-plugin.version>
     <kettle-version-checker.version>${project.version}</kettle-version-checker.version>
     <kettle-s3csvinput-plugin.version>${project.version}</kettle-s3csvinput-plugin.version>
     <kettle-shapefilereader-plugin.version>${project.version}</kettle-shapefilereader-plugin.version>
@@ -721,8 +721,8 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-streaming-kafka-plugin</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-streaming-kafka-plugin</artifactId>
       <version>${big-data-plugin.version}</version>
       <type>zip</type>
       <exclusions>

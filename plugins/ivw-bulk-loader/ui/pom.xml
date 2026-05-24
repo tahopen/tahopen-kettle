@@ -21,17 +21,17 @@
     </dependency>
 
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-core</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-ui-swt</artifactId>
       <scope>provided</scope>
     </dependency>

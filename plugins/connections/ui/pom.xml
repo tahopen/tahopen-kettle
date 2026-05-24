@@ -45,9 +45,9 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-platform-extensions</artifactId>
-      <version>9.4.0.0-SNAPSHOT</version>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-platform-extensions</artifactId>
+      <version>0.1.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.tahopen</groupId>

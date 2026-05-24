@@ -17,7 +17,7 @@
 
     <name>TDI TeraData FastLoad Bulk Loader Plugin</name>
     <description>This plugin is for Tahopen Data integration</description>
-    <url>http://www.tahopen.org/</url>
+    <url>https://www.tahopen.org/</url>
 
     <modules>
         <module>impl</module>
@@ -37,27 +37,27 @@
     <properties>
         <org.eclipse.swt.version>4.6</org.eclipse.swt.version>
         <jface.version>3.3.0-I20070606-0010</jface.version>
-        <pdi.version>10.1.0.0-SNAPSHOT</pdi.version>
+        <pdi.version>0.1.0.0</pdi.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>pentaho-kettle</groupId>
+                <groupId>tahopen-kettle</groupId>
                 <artifactId>kettle-engine</artifactId>
-                <version>9.4.0.0-SNAPSHOT</version>
+                <version>0.1.0.0</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
-                <groupId>pentaho-kettle</groupId>
+                <groupId>tahopen-kettle</groupId>
                 <artifactId>kettle-core</artifactId>
-                <version>9.4.0.0-SNAPSHOT</version>
+                <version>0.1.0.0</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
-                <groupId>pentaho-kettle</groupId>
+                <groupId>tahopen-kettle</groupId>
                 <artifactId>kettle-ui-swt</artifactId>
-                <version>9.4.0.0-SNAPSHOT</version>
+                <version>0.1.0.0</version>
                 <scope>provided</scope>
             </dependency>
 
@@ -88,16 +88,16 @@
             </dependency>
             <!--test dependencies-->
             <dependency>
-                <groupId>pentaho-kettle</groupId>
+                <groupId>tahopen-kettle</groupId>
                 <artifactId>kettle-core</artifactId>
-                <version>9.4.0.0-SNAPSHOT</version>
+                <version>0.1.0.0</version>
                 <classifier>tests</classifier>
                 <scope>test</scope>
             </dependency>
             <dependency>
-                <groupId>pentaho-kettle</groupId>
+                <groupId>tahopen-kettle</groupId>
                 <artifactId>kettle-engine</artifactId>
-                <version>9.4.0.0-SNAPSHOT</version>
+                <version>0.1.0.0</version>
                 <classifier>tests</classifier>
                 <scope>test</scope>
             </dependency>
