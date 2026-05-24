@@ -10,7 +10,8 @@
     <version>0.1.0.0</version>
   </parent>
 
-  <artifactId>tahopen-repository-locator-spoon-plugin</artifactId>
+  <!-- <artifactId>tahopen-repository-locator-spoon-plugin</artifactId>-->
+  <artifactId>kettle-repository-locator-spoon-plugin</artifactId>
   <version>0.1.0.0</version>
   <packaging>pom</packaging>
 

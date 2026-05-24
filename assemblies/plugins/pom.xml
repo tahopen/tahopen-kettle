@@ -878,7 +878,7 @@
     </dependency>
   </dependencies>
 
-
+<!--
   <profiles>
 
     <profile>
@@ -921,8 +921,8 @@
       </activation>
       <dependencies>
         <dependency>
-          <groupId>pentaho</groupId>
-          <artifactId>pentaho-big-data-plugin</artifactId>
+          <groupId>org.tahopen</groupId>
+          <artifactId>tahopen-big-data-plugin</artifactId>
           <version>${big-data-plugin.version}</version>
           <type>zip</type>
           <exclusions>
@@ -958,5 +958,5 @@
     </profile>
 
   </profiles>
-
+-->
 </project>

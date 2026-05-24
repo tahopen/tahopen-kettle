@@ -18,7 +18,7 @@
     <pdi-dataservice-driver-bundle.version>${project.version}</pdi-dataservice-driver-bundle.version>
 
     <pentaho-launcher.version>0.1.0.0</pentaho-launcher.version>
-    <oss-licenses.version>10.1.0.0-SNAPSHOT</oss-licenses.version>
+    <oss-licenses.version>9.4.0.0-SNAPSHOT</oss-licenses.version>
     <pentaho-karaf.version>0.1.0.0</pentaho-karaf.version>
 
     <!-- swt -->
@@ -56,14 +56,12 @@
         </exclusion>
       </exclusions>
     </dependency>
-<!--
     <dependency>
       <groupId>pentaho</groupId>
       <artifactId>oss-licenses</artifactId>
       <version>${oss-licenses.version}</version>
       <type>zip</type>
     </dependency>
--->
     <!-- swt -->
     <dependency>
       <groupId>org.eclipse.platform</groupId>
@@ -122,6 +120,7 @@
     </dependency>
   </dependencies>
 
+<!--
   <profiles>
 
     <profile>
@@ -507,6 +506,7 @@
 
   </profiles>
 
+-->
   <build>
     <plugins>
       <plugin>

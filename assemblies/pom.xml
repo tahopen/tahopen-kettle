@@ -29,6 +29,7 @@
     <module>core</module>
   </modules>
 
+<!--
   <profiles>
 
     <profile>
@@ -58,9 +59,10 @@
             <artifactId>maven-clean-plugin</artifactId>
             <executions>
               <execution>
-                <!-- override clean and don't delete the zips in target, this helps hadoop-addon and makes the pipeline cleaner
+ -->
+               <!-- override clean and don't delete the zips in target, this helps hadoop-addon and makes the pipeline cleaner
                      if you really need a full cleaning run clean without activating this profile -->
-                <id>default-clean</id>
+ <!--               <id>default-clean</id>
                 <configuration>
                   <excludeDefaultDirectories>true</excludeDefaultDirectories>
                   <filesets>
@@ -83,5 +85,5 @@
     </profile>
 
   </profiles>
-
+-->
 </project>
