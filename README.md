@@ -31,7 +31,7 @@ Tahopen Data Integration uses the Maven framework.
 * Maven, version 3+
 * Java JDK 11
 * Legacy Pentaho!
- This [settings.xml](https://raw.githubusercontent.com/pentaho/maven-parent-poms/master/maven-support-files/settings.xml) in your <user-home>/.m2 directory
+ This [settings.xml](https://raw.githubusercontent.com/tahopen/maven-parent-poms/master/maven-support-files/settings.xml) in your <user-home>/.m2 directory
 
 #### Building it
 
