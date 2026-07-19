@@ -120,7 +120,6 @@
     </dependency>
   </dependencies>
 
-<!--
   <profiles>
 
     <profile>
@@ -506,7 +505,6 @@
 
   </profiles>
 
--->
   <build>
     <plugins>
       <plugin>
