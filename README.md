@@ -38,6 +38,7 @@ Tahopen Data Integration uses the Maven framework.
 Add repo dependency-notsource manual maven repo
 ```
 wget https://github.com/tahopen/legacy-jars-dependency-notsource/raw/refs/heads/main/jug-lgpl-2.0.0.jar
+wget https://github.com/tahopen/legacy-jars-dependency-notsource/raw/refs/heads/main/org.eclipse.swt.gtk.linux.x86_64-4.6.jar
 
 mvn install:install-file \
   -Dfile=jug-lgpl-2.0.0.jar \
@@ -45,6 +46,14 @@ mvn install:install-file \
   -DartifactId=jug-lgpl \
   -Dversion=2.0.0 \
   -Dpackaging=jar
+
+mvn install:install-file
+  -Dfile=org.eclipse.swt.gtk.linux.x86_64-4.6.jar
+  -DgroupId=org.eclipse.swt
+  -DartifactId=org.eclipse.swt.gtk.linux.x86_64
+  -Dversion=4.6
+  -Dpackaging=jar
+  -DgeneratePom=true
 ```
 
 This is a Maven project, and to build it use the following command:
