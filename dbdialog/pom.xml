@@ -25,14 +25,12 @@
     <dependency>
       <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-core</artifactId>
-      <version>0.1.0.0</version>      
-      <!--<version>${project.version}</version>-->
+      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
-        <version>0.1.0.0</version>       
-     <!-- <version>${project.version}</version>-->
+      <version>${project.version}</version>
     </dependency>
 
     <!-- Pentaho (non-Kettle) dependencies -->
@@ -71,8 +69,9 @@
 
     <!-- Third-party (external) dependencies -->
     <dependency>
-      <groupId>org.eclipse.swt</groupId>
+      <groupId>org.eclipse.platform</groupId>
       <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
+      <version>3.123.0</version>
     </dependency>
 
     <dependency>

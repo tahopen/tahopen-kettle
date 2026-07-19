@@ -131,7 +131,8 @@
     <dependency>
       <groupId>org.eclipse.swt</groupId>
       <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
-      <scope>provided</scope>
+      <!-- <scope>provided</scope> -->
+      <version>4.6</version>
     </dependency>
 
     <!-- Endorsed Standards Excluded from Java 11+ -->

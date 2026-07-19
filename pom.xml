@@ -11,7 +11,7 @@
 
   <name>Tahopen Data Integration</name>
   <description>Container pom for Tahopen Data Integration modules</description>
-  <url>http://www.tahopen.org</url>
+  <url>https://www.tahopen.org</url>
 
   <parent>
     <groupId>org.tahopen</groupId>
