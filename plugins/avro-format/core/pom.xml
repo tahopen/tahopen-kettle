@@ -112,6 +112,7 @@
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-core</artifactId>
     </dependency>
+   <!--  conflict swt versions add code bottom
     <dependency>
       <groupId>org.eclipse.platform</groupId>
       <artifactId>org.eclipse.jface</artifactId>
@@ -127,12 +128,34 @@
         </exclusion>
       </exclusions>
     </dependency>
+    -->
+
+   <dependency>
+      <groupId>org.eclipse.platform</groupId>
+      <artifactId>org.eclipse.jface</artifactId>
+      <version>${jface.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.eclipse.platform</groupId>
+          <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.eclipse.platform</groupId>
+          <artifactId>org.eclipse.core.commands</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.eclipse.platform</groupId>
+          <artifactId>org.eclipse.equinox.common</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
     <!-- SWT is required to compile, any version of any architecture will work -->
     <dependency>
       <groupId>org.eclipse.swt</groupId>
       <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
-      <!-- <scope>provided</scope> -->
-      <version>4.6</version>
+      <version>4.6</version> 
+      <scope>provided</scope>
     </dependency>
 
     <!-- Endorsed Standards Excluded from Java 11+ -->

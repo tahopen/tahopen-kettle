@@ -237,6 +237,7 @@
         <version>${powermock-api-mockito.version}</version>
         <scope>test</scope>
       </dependency>
+
     </dependencies>
   </dependencyManagement>
 
