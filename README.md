@@ -39,6 +39,8 @@ Add repo dependency-notsource manual maven repo
 ```
 wget https://github.com/tahopen/legacy-jars-dependency-notsource/raw/refs/heads/main/jug-lgpl-2.0.0.jar
 wget https://github.com/tahopen/legacy-jars-dependency-notsource/raw/refs/heads/main/org.eclipse.swt.gtk.linux.x86_64-4.6.jar
+wget https://github.com/tahopen/legacy-jars-dependency-notsource/raw/refs/heads/main/org.eclipse.swt.win32.win32.x86_64-4.3.jar
+
 
 mvn install:install-file \
   -Dfile=jug-lgpl-2.0.0.jar \
@@ -54,6 +56,14 @@ mvn install:install-file
   -Dversion=4.6
   -Dpackaging=jar
   -DgeneratePom=true
+
+mvn install:install-file \
+   -Dfile=org.eclipse.swt.win32.win32.x86_64-4.3.jar \
+   -DgroupId=org.eclipse.swt \
+   -DartifactId=org.eclipse.swt.win32.win32.x86_64 \
+   -Dversion=4.3 \
+   -Dpackaging=jar \
+   -DgeneratePom=true  
 ```
 
 This is a Maven project, and to build it use the following command:
